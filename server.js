@@ -1,7 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const fileUpload = require('express-fileupload');
-const { analyzeReport } = require('./services/AiSummarize/deepseekAnalyze');
+const { analyzeReport } = require('./services/AiSummarize/reportAnalyze');
 const { processReports} = require('./services/AiSummarize/processReportData');
 const { saveSummary } = require('./services/firestoreService');
 const { updateAssignedTaskToWorker, updateTaskStatusToWorker, updateReportStatusToAdmin, updateNewReportToAdmin, updateReportStatusToUser } = require('./services/pushNotfication/oneSignal');
@@ -16,7 +16,7 @@ app.use(fileUpload({
     limits: { fileSize: 10 * 1024 * 1024 },
     useTempFiles: true,
     tempFileDir: '/tmp/'
-  }));
+}));
 
 app.get('/', (req, res) => {
     res.send('The server is running on port 3000');
