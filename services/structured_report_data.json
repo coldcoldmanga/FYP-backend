@@ -1,0 +1,872 @@
+{
+  "Air Conditioner-MAMR5001-2025-0": {
+    "building_id": "BLOCK A - FOB",
+    "facility_id": "MAMR5001",
+    "equipment_id": "ACe5f8gHjKl2pQrstUv",
+    "fault_type": "Air Conditioner",
+    "description": "AC unit in MBA room not cooling effectively.",
+    "status": "Completed",
+    "priority": "Medium",
+    "submitted_at": {
+      "_seconds": 1740921600, 
+      "_nanoseconds": 100000000
+    },
+    "updated_at": {
+      "_seconds": 1741180800, 
+      "_nanoseconds": 500000000
+    }
+  },
+  "Lighting-MAMR1011-2025-1": {
+    "building_id": "BLOCK A - FOB",
+    "facility_id": "MAMR1011",
+    "equipment_id": "Lgt9aBcDeF3gHiJkLm",
+    "fault_type": "Lighting",
+    "description": "Flickering light bulb in lecturer room.",
+    "status": "Completed",
+    "priority": "Low",
+    "submitted_at": {
+      "_seconds": 1740993600, 
+      "_nanoseconds": 200000000
+    },
+    "updated_at": {
+      "_seconds": 1741080000, 
+      "_nanoseconds": 300000000
+    }
+  },
+  "Electrical-MAMR3002-2025-2": {
+    "building_id": "BLOCK A - FOB",
+    "facility_id": "MAMR3002",
+    "equipment_id": "Ele7mNoPqR4sTuVwXy",
+    "fault_type": "Electrical",
+    "description": "Power outlet sparks when plug inserted.",
+    "status": "Completed",
+    "priority": "High",
+    "submitted_at": {
+      "_seconds": 1741065600, 
+      "_nanoseconds": 400000000
+    },
+    "updated_at": {
+      "_seconds": 1741152000, 
+      "_nanoseconds": 600000000
+    }
+  },
+  "Door/Window/Roller Shutter -MAMR002-2025-3": {
+    "building_id": "BLOCK A - FOB",
+    "facility_id": "MAMR002",
+    "equipment_id": "Dor1zAbCdE5fGhIjKl",
+    "fault_type": "Door/Window/Roller Shutter ",
+    "description": "Moot court door handle loose.",
+    "status": "Completed",
+    "priority": "Medium",
+    "submitted_at": {
+      "_seconds": 1741155600, 
+      "_nanoseconds": 700000000
+    },
+    "updated_at": {
+      "_seconds": 1741328400, 
+      "_nanoseconds": 800000000
+    }
+  },
+  "Toilet Defect-MAMT1001-2025-4": {
+    "building_id": "BLOCK A - FOB",
+    "facility_id": "MAMT1001",
+    "equipment_id": "Tlt6mNoPqR7sTuVwXy",
+    "fault_type": "Toilet Defect",
+    "description": "Toilet flush not working in male toilet level 1.",
+    "status": "Completed",
+    "priority": "Medium",
+    "submitted_at": {
+      "_seconds": 1741242000, 
+      "_nanoseconds": 900000000
+    },
+    "updated_at": {
+      "_seconds": 1741328400, 
+      "_nanoseconds": 100000000
+    }
+  },
+  "Electrical-MAMU3001-2025-5": {
+    "building_id": "BLOCK A - FOB",
+    "facility_id": "MAMU3001",
+    "equipment_id": "Ele2pQrStU8vWxYzAb",
+    "fault_type": "Electrical",
+    "description": "Breaker tripped in Level 3 Electric Room.",
+    "status": "Completed",
+    "priority": "High",
+    "submitted_at": {
+      "_seconds": 1741332000, 
+      "_nanoseconds": 200000000
+    },
+    "updated_at": {
+      "_seconds": 1741418400, 
+      "_nanoseconds": 300000000
+    }
+  },
+  "Air Conditioner-MAMR4006-2025-6": {
+    "building_id": "BLOCK A - FOB",
+    "facility_id": "MAMR4006",
+    "equipment_id": "ACf9gHjKlM3nOpQrSt",
+    "fault_type": "Air Conditioner",
+    "description": "AC leaking water in lecturer room 4006.",
+    "status": "Completed",
+    "priority": "Medium",
+    "submitted_at": {
+      "_seconds": 1741422000, 
+      "_nanoseconds": 400000000
+    },
+    "updated_at": {
+      "_seconds": 1741681200, 
+      "_nanoseconds": 500000000
+    }
+  },
+    "MMU WIFI-MAMR0001-2025-7": {
+    "building_id": "BLOCK A - FOB",
+    "facility_id": "MAMR0001",
+    "equipment_id": "Wif4uVwXyZ5aBcDeFg",
+    "fault_type": "MMU WIFI",
+    "description": "Slow wifi connection in Student Lounge.",
+    "status": "Completed",
+    "priority": "Low",
+    "submitted_at": {
+      "_seconds": 1741512000, 
+      "_nanoseconds": 600000000
+    },
+    "updated_at": {
+      "_seconds": 1741684800, 
+      "_nanoseconds": 700000000
+    }
+  },
+   "Electrical-MAMR2018-2025-8": {
+    "building_id": "BLOCK A - FOB",
+    "facility_id": "MAMR2018",
+    "equipment_id": "Ele8hIjKlM9nOpQrSt",
+    "fault_type": "Electrical",
+    "description": "Faulty power socket in Lecturer Room 2018.",
+    "status": "Completed",
+    "priority": "Medium",
+    "submitted_at": {
+      "_seconds": 1741594800, 
+      "_nanoseconds": 800000000
+    },
+    "updated_at": {
+      "_seconds": 1741771200, 
+      "_nanoseconds": 900000000
+    }
+  },
+  "Air Conditioner-MAMR3001-2025-9": {
+    "building_id": "BLOCK A - FOB",
+    "facility_id": "MAMR3001",
+    "equipment_id": "ACg1jKlMnP4qRsTuVw",
+    "fault_type": "Air Conditioner",
+    "description": "FOB Lab 1 AC unit making loud noise.",
+    "status": "In Progress",
+    "priority": "Medium",
+    "submitted_at": {
+      "_seconds": 1741681200, 
+      "_nanoseconds": 100000000
+    },
+    "updated_at": {
+      "_seconds": 1741767600, 
+      "_nanoseconds": 200000000
+    }
+  },
+  "Lighting-MAMR2013-2025-10": {
+    "building_id": "BLOCK A - FOB",
+    "facility_id": "MAMR2013",
+    "equipment_id": "Lgt5xYzAbC6dEfGhIj",
+    "fault_type": "Lighting",
+    "description": "Several lights out in Lecture Hall 2013.",
+    "status": "Completed",
+    "priority": "Medium",
+    "submitted_at": {
+      "_seconds": 1741771200, 
+      "_nanoseconds": 300000000
+    },
+    "updated_at": {
+      "_seconds": 1741944000, 
+      "_nanoseconds": 400000000
+    }
+  },
+  "Electrical-MBMR0001-2025-11": {
+    "building_id": "BLOCK B - CDP",
+    "facility_id": "MBMR0001",
+    "equipment_id": "Ele3kLmNoP7qRsTuVw",
+    "fault_type": "Electrical",
+    "description": "Flickering lights in Exam Unit Office.",
+    "status": "Completed",
+    "priority": "Low",
+    "submitted_at": {
+      "_seconds": 1741857600, 
+      "_nanoseconds": 500000000
+    },
+    "updated_at": {
+      "_seconds": 1741944000, 
+      "_nanoseconds": 600000000
+    }
+  },
+  "Air Conditioner-MAMR5025-2025-12": {
+    "building_id": "BLOCK A - FOB",
+    "facility_id": "MAMR5025",
+    "equipment_id": "ACz2aBcDeF8gHiJkLm",
+    "fault_type": "Air Conditioner",
+    "description": "I-Biz Lounge AC not cold.",
+    "status": "Completed",
+    "priority": "High",
+    "submitted_at": {
+      "_seconds": 1741947600, 
+      "_nanoseconds": 700000000
+    },
+    "updated_at": {
+      "_seconds": 1742120400, 
+      "_nanoseconds": 800000000
+    }
+  },
+  "Toilet Defect-MAMT5004-2025-13": {
+    "building_id": "BLOCK A - FOB",
+    "facility_id": "MAMT5004",
+    "equipment_id": "Tlt7nOpQrS1tUvWxYz",
+    "fault_type": "Toilet Defect",
+    "description": "Leaking pipe under sink in Female Toilet Lvl 5.",
+    "status": "Completed",
+    "priority": "Medium",
+    "submitted_at": {
+      "_seconds": 1742034000, 
+      "_nanoseconds": 900000000
+    },
+    "updated_at": {
+      "_seconds": 1742120400, 
+      "_nanoseconds": 100000000
+    }
+  },
+  "Air Conditioner-MAMR1015-2025-14": {
+    "building_id": "BLOCK A - FOB",
+    "facility_id": "MAMR1015",
+    "equipment_id": "ACm6nOpQrS2tUvWxYz",
+    "fault_type": "Air Conditioner",
+    "description": "CDP Lab AC unit cannot be turned on.",
+    "status": "In Progress",
+    "priority": "High",
+    "submitted_at": {
+      "_seconds": 1742124000, 
+      "_nanoseconds": 200000000
+    },
+    "updated_at": {
+      "_seconds": 1742296800, 
+      "_nanoseconds": 300000000
+    }
+  },
+  "Electrical-MAMU4001-2025-15": {
+    "building_id": "BLOCK A - FOB",
+    "facility_id": "MAMU4001",
+    "equipment_id": "Ele4pQrStU0vWxYzAb",
+    "fault_type": "Electrical",
+    "description": "Suspicious smell from Level 4 Electrical Room.",
+    "status": "Completed",
+    "priority": "High",
+    "submitted_at": {
+      "_seconds": 1742210400, 
+      "_nanoseconds": 400000000
+    },
+    "updated_at": {
+      "_seconds": 1742296800, 
+      "_nanoseconds": 500000000
+    }
+  },
+  "Air Conditioner-MAMR5001-2025-16": {
+    "building_id": "BLOCK A - FOB",
+    "facility_id": "MAMR5001",
+    "equipment_id": "ACe5f8gHjKl2pQrstUv",
+    "fault_type": "Air Conditioner",
+    "description": "AC in MBA room stopped working again.",
+    "status": "In Progress",
+    "priority": "High",
+    "submitted_at": {
+      "_seconds": 1742300400, 
+      "_nanoseconds": 600000000
+    },
+    "updated_at": {
+      "_seconds": 1742386800, 
+      "_nanoseconds": 700000000
+    }
+  },
+  "Air Conditioner-MAMR3001-2025-17": {
+    "building_id": "BLOCK A - FOB",
+    "facility_id": "MAMR3001",
+    "equipment_id": "ACg1jKlMnP4qRsTuVw",
+    "fault_type": "Air Conditioner",
+    "description": "Still noisy, and now not cooling well in FOB Lab 1.",
+    "status": "In Progress",
+    "priority": "High",
+    "submitted_at": {
+      "_seconds": 1742386800, 
+      "_nanoseconds": 800000000
+    },
+    "updated_at": {
+      "_seconds": 1742386800, 
+      "_nanoseconds": 800000000
+    }
+  },
+    "Housekeeping-MAMR0001-2025-18": {
+    "building_id": "BLOCK A - FOB",
+    "facility_id": "MAMR0001",
+    "equipment_id": "Hsk1vWxYzAb2cDeFgH",
+    "fault_type": "Housekeeping",
+    "description": "Trash bin overflowing in Student Lounge.",
+    "status": "Completed",
+    "priority": "Low",
+    "submitted_at": {
+      "_seconds": 1742473200, 
+      "_nanoseconds": 900000000
+    },
+    "updated_at": {
+      "_seconds": 1742559600, 
+      "_nanoseconds": 100000000
+    }
+  },
+  "Electrical-MAMR4014-2025-19": {
+    "building_id": "BLOCK A - FOB",
+    "facility_id": "MAMR4014",
+    "equipment_id": "Ele9jKlMnP5qRsTuVw",
+    "fault_type": "Electrical",
+    "description": "Main switch issue in Cnergy Office.",
+    "status": "In Progress",
+    "priority": "High",
+    "submitted_at": {
+      "_seconds": 1742563200, 
+      "_nanoseconds": 200000000
+    },
+    "updated_at": {
+      "_seconds": 1742649600, 
+      "_nanoseconds": 300000000
+    }
+  },
+  "Air Conditioner-MAMR2014-2025-20": {
+    "building_id": "BLOCK A - FOB",
+    "facility_id": "MAMR2014",
+    "equipment_id": "ACi3kLmNoP0qRsTuVw",
+    "fault_type": "Air Conditioner",
+    "description": "Studio A air conditioner malfunctioning.",
+    "status": "Pending",
+    "priority": "Medium",
+    "submitted_at": {
+      "_seconds": 1742649600, 
+      "_nanoseconds": 400000000
+    },
+    "updated_at": {
+      "_seconds": 1742649600, 
+      "_nanoseconds": 400000000
+    }
+  },
+  "Air Conditioner-MAMR5006-2025-21": {
+    "building_id": "BLOCK A - FOB",
+    "facility_id": "MAMR5006",
+    "equipment_id": "ACx4yYzAbC1dEfGhIj",
+    "fault_type": "Air Conditioner",
+    "description": "Lecturer Room 5006 AC remote not working.",
+    "status": "Pending",
+    "priority": "Low",
+    "submitted_at": {
+      "_seconds": 1742736000, 
+      "_nanoseconds": 500000000
+    },
+    "updated_at": {
+      "_seconds": 1742736000, 
+      "_nanoseconds": 500000000
+    }
+  },
+  "MMU WIFI-MAMR5026-2025-22": {
+    "building_id": "BLOCK A - FOB",
+    "facility_id": "MAMR5026",
+    "equipment_id": "Wif2aBcDeF8gHiJkLm",
+    "fault_type": "MMU WIFI",
+    "description": "No WIFI signal in I-BIZ area.",
+    "status": "In Progress",
+    "priority": "Medium",
+    "submitted_at": {
+      "_seconds": 1742826000, 
+      "_nanoseconds": 600000000
+    },
+    "updated_at": {
+      "_seconds": 1742912400, 
+      "_nanoseconds": 700000000
+    }
+  },
+  "Air Conditioner-MAMR1017-2025-23": {
+    "building_id": "BLOCK A - FOB",
+    "facility_id": "MAMR1017",
+    "equipment_id": "ACoPqRsTuVwXyZ6aBc",
+    "fault_type": "Air Conditioner",
+    "description": "TM R&D Office AC unit emitting strange odor.",
+    "status": "Pending",
+    "priority": "Medium",
+    "submitted_at": {
+      "_seconds": 1742912400, 
+      "_nanoseconds": 800000000
+    },
+    "updated_at": {
+      "_seconds": 1742912400, 
+      "_nanoseconds": 800000000
+    }
+  },
+  "Electrical-MAMU5001-2025-24": {
+    "building_id": "BLOCK A - FOB",
+    "facility_id": "MAMU5001",
+    "equipment_id": "Ele7mNoPqR4sTuVwXy",
+    "fault_type": "Electrical",
+    "description": "Lights flickering in Level 5 Electrical Room.",
+    "status": "Pending",
+    "priority": "Medium",
+    "submitted_at": {
+      "_seconds": 1742998800, 
+      "_nanoseconds": 900000000
+    },
+    "updated_at": {
+      "_seconds": 1742998800, 
+      "_nanoseconds": 900000000
+    }
+  },
+  "Air Conditioner-MAMR3009-2025-25": {
+    "building_id": "BLOCK A - FOB",
+    "facility_id": "MAMR3009",
+    "equipment_id": "ACzAbCdEfGhIjKlMnP",
+    "fault_type": "Air Conditioner",
+    "description": "Conference Room AC not cooling enough for meetings.",
+    "status": "In Progress",
+    "priority": "High",
+    "submitted_at": {
+      "_seconds": 1743085200, 
+      "_nanoseconds": 100000000
+    },
+    "updated_at": {
+      "_seconds": 1743171600, 
+      "_nanoseconds": 200000000
+    }
+  },
+  "Toilet Accesories-MAMT2002-2025-26": {
+    "building_id": "BLOCK A - FOB",
+    "facility_id": "MAMT2002",
+    "equipment_id": "TltAcc1vWxYzAb2cDeF",
+    "fault_type": "Toilet Accesories",
+    "description": "Soap dispenser broken in Female Toilet Level 2.",
+    "status": "Pending",
+    "priority": "Low",
+    "submitted_at": {
+      "_seconds": 1743175200, 
+      "_nanoseconds": 300000000
+    },
+    "updated_at": {
+      "_seconds": 1743175200, 
+      "_nanoseconds": 300000000
+    }
+  },
+  "Air Conditioner-MBBT0001-2025-27": {
+    "building_id": "Block N - FIST B",
+    "facility_id": "MBBT0001",
+    "equipment_id": "ACf9gHjKlM3nOpQrSt",
+    "fault_type": "Air Conditioner",
+    "description": "AC unit in FIST B Male Toilet not working.",
+    "status": "Pending",
+    "priority": "Medium",
+    "submitted_at": {
+      "_seconds": 1743261600, 
+      "_nanoseconds": 400000000
+    },
+    "updated_at": {
+      "_seconds": 1743261600, 
+      "_nanoseconds": 400000000
+    }
+  },
+  "Electrical-MAMR1010-2025-28": {
+    "building_id": "BLOCK A - FOB",
+    "facility_id": "MAMR1010",
+    "equipment_id": "Ele5xYzAbC6dEfGhIj",
+    "fault_type": "Electrical",
+    "description": "Power trip in Postgrade Room.",
+    "status": "Pending",
+    "priority": "High",
+    "submitted_at": {
+      "_seconds": 1743348000, 
+      "_nanoseconds": 500000000
+    },
+    "updated_at": {
+      "_seconds": 1743348000, 
+      "_nanoseconds": 500000000
+    }
+  },
+  "Air Conditioner-MAMR5001-2025-29": {
+    "building_id": "BLOCK A - FOB",
+    "facility_id": "MAMR5001",
+    "equipment_id": "ACe5f8gHjKl2pQrstUv",
+    "fault_type": "Air Conditioner",
+    "description": "MBA Room AC still having issues, intermittent cooling.",
+    "status": "Pending",
+    "priority": "High",
+    "submitted_at": {
+      "_seconds": 1743416400, 
+      "_nanoseconds": 600000000
+    },
+    "updated_at": {
+      "_seconds": 1743416400, 
+      "_nanoseconds": 600000000
+    }
+  },
+  "Lighting-MAMR4023-2025-30": {
+    "building_id": "BLOCK A - FOB",
+    "facility_id": "MAMR4023",
+    "equipment_id": "Lgt3kLmNoP7qRsTuVw",
+    "fault_type": "Lighting",
+    "description": "Lights out in Lecture Hall 4023.",
+    "status": "Completed",
+    "priority": "Medium",
+    "submitted_at": {
+      "_seconds": 1741000800,
+      "_nanoseconds": 100000000
+    },
+    "updated_at": {
+      "_seconds": 1741260000,
+      "_nanoseconds": 200000000
+    }
+  },
+  "Electrical-MAMU1001-2025-31": {
+    "building_id": "BLOCK A - FOB",
+    "facility_id": "MAMU1001",
+    "equipment_id": "Ele1zAbCdE5fGhIjKl",
+    "fault_type": "Electrical",
+    "description": "Humming noise from Level 1 Electric Room.",
+    "status": "Completed",
+    "priority": "Medium",
+    "submitted_at": {
+      "_seconds": 1741100400,
+      "_nanoseconds": 300000000
+    },
+    "updated_at": {
+      "_seconds": 1741273200,
+      "_nanoseconds": 400000000
+    }
+  },
+   "Air Conditioner-MAMR3001-2025-32": {
+    "building_id": "BLOCK A - FOB",
+    "facility_id": "MAMR3001",
+    "equipment_id": "ACg1jKlMnP4qRsTuVw",
+    "fault_type": "Air Conditioner",
+    "description": "FOB Lab 1 AC unit requires filter cleaning.",
+    "status": "Completed",
+    "priority": "Low",
+    "submitted_at": {
+      "_seconds": 1741300000,
+      "_nanoseconds": 500000000
+    },
+    "updated_at": {
+      "_seconds": 1741472800,
+      "_nanoseconds": 600000000
+    }
+  },
+  "Door/Window/Roller Shutter -MAMR1014-2025-33": {
+    "building_id": "BLOCK A - FOB",
+    "facility_id": "MAMR1014",
+    "equipment_id": "Dor6mNoPqR7sTuVwXy",
+    "fault_type": "Door/Window/Roller Shutter ",
+    "description": "Window latch broken in Research Room.",
+    "status": "Completed",
+    "priority": "Low",
+    "submitted_at": {
+      "_seconds": 1741389600,
+      "_nanoseconds": 700000000
+    },
+    "updated_at": {
+      "_seconds": 1741648800,
+      "_nanoseconds": 800000000
+    }
+  },
+  "Electrical-MAMR5020-2025-34": {
+    "building_id": "BLOCK A - FOB",
+    "facility_id": "MAMR5020",
+    "equipment_id": "Ele2pQrStU8vWxYzAb",
+    "fault_type": "Electrical",
+    "description": "Meeting Room power sockets not working.",
+    "status": "Completed",
+    "priority": "Medium",
+    "submitted_at": {
+      "_seconds": 1741500000,
+      "_nanoseconds": 900000000
+    },
+    "updated_at": {
+      "_seconds": 1741672800,
+      "_nanoseconds": 100000000
+    }
+  },
+   "Air Conditioner-MAMR0001-2025-35": {
+    "building_id": "BLOCK A - FOB",
+    "facility_id": "MAMR0001",
+    "equipment_id": "ACf9gHjKlM3nOpQrSt",
+    "fault_type": "Air Conditioner",
+    "description": "Student Lounge AC not powerful enough.",
+    "status": "Completed",
+    "priority": "Medium",
+    "submitted_at": {
+      "_seconds": 1741700000,
+      "_nanoseconds": 200000000
+    },
+    "updated_at": {
+      "_seconds": 1742000000,
+      "_nanoseconds": 300000000
+    }
+  },
+  "Air Conditioner-MAMR1016-2025-36": {
+    "building_id": "BLOCK A - FOB",
+    "facility_id": "MAMR1016",
+    "equipment_id": "ACg1jKlMnP4qRsTuVw",
+    "fault_type": "Air Conditioner",
+    "description": "Student Activity Room AC leaking.",
+    "status": "In Progress",
+    "priority": "Medium",
+    "submitted_at": {
+      "_seconds": 1742050000,
+      "_nanoseconds": 400000000
+    },
+    "updated_at": {
+      "_seconds": 1742222800,
+      "_nanoseconds": 500000000
+    }
+  },
+  "Lighting-MAMR5029-2025-37": {
+    "building_id": "BLOCK A - FOB",
+    "facility_id": "MAMR5029",
+    "equipment_id": "Lgt5xYzAbC6dEfGhIj",
+    "fault_type": "Lighting",
+    "description": "Lecture Hall 5029 lights too dim.",
+    "status": "Completed",
+    "priority": "Low",
+    "submitted_at": {
+      "_seconds": 1742150000,
+      "_nanoseconds": 600000000
+    },
+    "updated_at": {
+      "_seconds": 1742409200,
+      "_nanoseconds": 700000000
+    }
+  },
+   "Air Conditioner-MAMR4006-2025-38": {
+    "building_id": "BLOCK A - FOB",
+    "facility_id": "MAMR4006",
+    "equipment_id": "ACi3kLmNoP0qRsTuVw",
+    "fault_type": "Air Conditioner",
+    "description": "AC in room 4006 failed completely.",
+    "status": "In Progress",
+    "priority": "High",
+    "submitted_at": {
+      "_seconds": 1742400000,
+      "_nanoseconds": 800000000
+    },
+    "updated_at": {
+      "_seconds": 1742572800,
+      "_nanoseconds": 900000000
+    }
+  },
+  "Electrical-MAMU2001-2025-39": {
+    "building_id": "BLOCK A - FOB",
+    "facility_id": "MAMU2001",
+    "equipment_id": "Ele4uVwXyZ5aBcDeFg",
+    "fault_type": "Electrical",
+    "description": "Power surge issue reported from Level 2 Electric Room.",
+    "status": "In Progress",
+    "priority": "High",
+    "submitted_at": {
+      "_seconds": 1742500000,
+      "_nanoseconds": 100000000
+    },
+    "updated_at": {
+      "_seconds": 1742672800,
+      "_nanoseconds": 200000000
+    }
+  },
+  "Air Conditioner-MAMR3010-2025-40": {
+    "building_id": "BLOCK A - FOB",
+    "facility_id": "MAMR3010",
+    "equipment_id": "ACx4yYzAbC1dEfGhIj",
+    "fault_type": "Air Conditioner",
+    "description": "Lecture Room 3010 AC unit noisy.",
+    "status": "Pending",
+    "priority": "Medium",
+    "submitted_at": {
+      "_seconds": 1742600000,
+      "_nanoseconds": 300000000
+    },
+    "updated_at": {
+      "_seconds": 1742600000,
+      "_nanoseconds": 300000000
+    }
+  },
+  "Air Conditioner-MAMR5001-2025-41": {
+    "building_id": "BLOCK A - FOB",
+    "facility_id": "MAMR5001",
+    "equipment_id": "ACe5f8gHjKl2pQrstUv",
+    "fault_type": "Air Conditioner",
+    "description": "MBA Room AC temperature cannot be controlled.",
+    "status": "Pending",
+    "priority": "High",
+    "submitted_at": {
+      "_seconds": 1742800000,
+      "_nanoseconds": 400000000
+    },
+    "updated_at": {
+      "_seconds": 1742800000,
+      "_nanoseconds": 400000000
+    }
+  },
+  "Toilet Defect-MAMT3003-2025-42": {
+    "building_id": "BLOCK A - FOB",
+    "facility_id": "MAMT3003",
+    "equipment_id": "Tlt2aBcDeF8gHiJkLm",
+    "fault_type": "Toilet Defect",
+    "description": "Urinal sensor not working in Male Toilet Lvl 3.",
+    "status": "Pending",
+    "priority": "Low",
+    "submitted_at": {
+      "_seconds": 1742900000,
+      "_nanoseconds": 500000000
+    },
+    "updated_at": {
+      "_seconds": 1742900000,
+      "_nanoseconds": 500000000
+    }
+  },
+  "Air Conditioner-MAMR1011-2025-43": {
+    "building_id": "BLOCK A - FOB",
+    "facility_id": "MAMR1011",
+    "equipment_id": "ACoPqRsTuVwXyZ6aBc",
+    "fault_type": "Air Conditioner",
+    "description": "Lecturer room 1011 AC not cooling.",
+    "status": "Pending",
+    "priority": "Medium",
+    "submitted_at": {
+      "_seconds": 1743000000,
+      "_nanoseconds": 600000000
+    },
+    "updated_at": {
+      "_seconds": 1743000000,
+      "_nanoseconds": 600000000
+    }
+  },
+  "Electrical-MAMR0008-2025-44": {
+    "building_id": "BLOCK A - FOB",
+    "facility_id": "MAMR0008",
+    "equipment_id": "Ele7mNoPqR4sTuVwXy",
+    "fault_type": "Electrical",
+    "description": "Power issue in PABX Room.",
+    "status": "Pending",
+    "priority": "High",
+    "submitted_at": {
+      "_seconds": 1743100000,
+      "_nanoseconds": 700000000
+    },
+    "updated_at": {
+      "_seconds": 1743100000,
+      "_nanoseconds": 700000000
+    }
+  },
+   "Air Conditioner-MAMR3001-2025-45": {
+    "building_id": "BLOCK A - FOB",
+    "facility_id": "MAMR3001",
+    "equipment_id": "ACg1jKlMnP4qRsTuVw",
+    "fault_type": "Air Conditioner",
+    "description": "FOB Lab 1 AC still problematic, requesting replacement.",
+    "status": "Pending",
+    "priority": "High",
+    "submitted_at": {
+      "_seconds": 1743200000,
+      "_nanoseconds": 800000000
+    },
+    "updated_at": {
+      "_seconds": 1743200000,
+      "_nanoseconds": 800000000
+    }
+  },
+  "Water Pipe-MAMT4003-2025-46": {
+    "building_id": "BLOCK A - FOB",
+    "facility_id": "MAMT4003",
+    "equipment_id": "WtrP1vWxYzAb2cDeFg",
+    "fault_type": "Water Pipe",
+    "description": "Leaking pipe in Male Toilet Level 4 ceiling.",
+    "status": "Pending",
+    "priority": "Medium",
+    "submitted_at": {
+      "_seconds": 1743300000,
+      "_nanoseconds": 900000000
+    },
+    "updated_at": {
+      "_seconds": 1743300000,
+      "_nanoseconds": 900000000
+    }
+  },
+  "Air Conditioner-MAMR5027-2025-47": {
+    "building_id": "BLOCK A - FOB",
+    "facility_id": "MAMR5027",
+    "equipment_id": "ACzAbCdEfGhIjKlMnP",
+    "fault_type": "Air Conditioner",
+    "description": "I-TRD room AC not working.",
+    "status": "Pending",
+    "priority": "High",
+    "submitted_at": {
+      "_seconds": 1743386400,
+      "_nanoseconds": 100000000
+    },
+    "updated_at": {
+      "_seconds": 1743386400,
+      "_nanoseconds": 100000000
+    }
+  },
+   "Facilities/Others-MAMU0005-2025-48": {
+    "building_id": "BLOCK A - FOB",
+    "facility_id": "MAMU0005",
+    "equipment_id": "FacOth1vWxYzAb2cDe",
+    "fault_type": "Facilities/Others",
+    "description": "Janitor Room door lock jammed.",
+    "status": "Completed",
+    "priority": "Low",
+    "submitted_at": {
+      "_seconds": 1741200000, 
+      "_nanoseconds": 200000000
+    },
+    "updated_at": {
+      "_seconds": 1741372800, 
+      "_nanoseconds": 300000000
+    }
+  },
+   "Pest Control-MAMR0013-2025-49": {
+    "building_id": "BLOCK A - FOB",
+    "facility_id": "MAMR0013",
+    "equipment_id": "PstCtrl3kLmNoP7qRs",
+    "fault_type": "Pest Control",
+    "description": "Ants infestation in Office Room.",
+    "status": "Completed",
+    "priority": "Low",
+    "submitted_at": {
+      "_seconds": 1741800000, 
+      "_nanoseconds": 400000000
+    },
+    "updated_at": {
+      "_seconds": 1742059200, 
+      "_nanoseconds": 500000000
+    }
+  },
+  "Misc": {
+    "total_reports": 50,
+    "completed_reports": 21,
+    "in_progress_reports": 10,
+    "pending_reports": 19,
+    "completion_rate": 42,
+    "avg_completion_time": "2.7 days", 
+    "frequent_fault_type": [
+      "Air Conditioner",
+      18
+    ],
+    "frequent_faulty_facility": [
+      "MAMR5001",
+      5
+    ]
+  },
+  "Summary_Period": {
+    "start_date": "2025-03-01",
+    "end_date": "2025-03-31"
+  }
+}
