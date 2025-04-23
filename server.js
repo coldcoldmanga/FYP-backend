@@ -8,7 +8,7 @@ const { updateAssignedTaskToWorker, updateTaskStatusToWorker, updateReportStatus
 const { uploadAttachment } = require('./services/uploadAttachment/cloudinary');
 const { assignTask } = require('./services/assignTask/assignTask');
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 app.use(cors());
 app.use(express.json());
