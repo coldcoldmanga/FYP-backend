@@ -156,7 +156,7 @@ app.post('/updateNewReportToAdmin', async (req, res) => {
 
 app.post('/updateReportStatusToUser', async (req, res) => {
 
-    const { reportID, status, playerID} = req.body;
+    const { reportID, status } = req.body;
     
     try {
         await updateReportStatusToUser2(reportID, status);
