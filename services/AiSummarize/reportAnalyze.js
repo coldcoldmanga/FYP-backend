@@ -39,13 +39,6 @@ const SYSTEM_PROMPT = `Analyze the provided JSON dataset of facility issues with
 
 async function analyzeReport(reportData) {
 
-  // const completion = await openai.chat.completions.create({
-  //   messages: [{ role: "system", content: SYSTEM_PROMPT },
-  //     { role: "user", content: JSON.stringify(reportData) }
-  //   ],
-  //   model: "deepseek-reasoner",
-  // });
-
   const result = await groq.chat.completions.create({
     messages: [
       {

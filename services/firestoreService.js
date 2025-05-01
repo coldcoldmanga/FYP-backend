@@ -1,5 +1,5 @@
 const firestore = require("../firebaseConfig");
-const { collection, query, where, getDocs, Timestamp } = require("firebase-admin/firestore");
+const { collection, query, where, getDocs, getDoc, Timestamp } = require("firebase-admin/firestore");
 
 async function getReports(startDate, endDate){
     try {
@@ -73,6 +73,35 @@ async function assignWorker(reportID, workerID){
         
     }
 }
+
+async function getUserPlayerID (userID) {
+    try{
+        const userDoc = firestore.collection('user').doc(userID);
+        if(userDoc.exists){
+            return userDoc.data()?.player_id;
+        }else{
+            return null;
+        }
+    }catch(error){
+        console.error('Get User Player ID Error: ', error);
+        throw error;
+    }
+}
+
+async function getUserTrackingList (reportID) {
+    try {
+        const trackRef = firestore.collection('user_track').where('report_id', '==', reportID);
+        const trackSnapshot = await getDocs(trackRef);
+        
+        const userIDs = trackSnapshot.docs.map((doc) => doc.data().user_id);
+        return userIDs;
+    } catch (error) {
+        console.error('Error getting user tracking list: ', error);
+        throw error;
+    }
+}
+
+
 
 module.exports = { getReports, saveSummary, getWorker, assignWorker};
 

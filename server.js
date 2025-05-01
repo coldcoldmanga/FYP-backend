@@ -4,7 +4,7 @@ const fileUpload = require('express-fileupload');
 const { analyzeReport } = require('./services/AiSummarize/reportAnalyze');
 const { processReports} = require('./services/AiSummarize/processReportData');
 const { saveSummary } = require('./services/firestoreService');
-const { updateAssignedTaskToWorker, updateTaskStatusToWorker, updateReportStatusToAdmin, updateNewReportToAdmin, updateReportStatusToUser } = require('./services/pushNotfication/oneSignal');
+const { updateAssignedTaskToWorker, updateTaskStatusToWorker, updateReportStatusToAdmin, updateNewReportToAdmin, updateReportStatusToUser2 } = require('./services/pushNotfication/oneSignal');
 const { uploadAttachment } = require('./services/uploadAttachment/cloudinary');
 const { assignTask } = require('./services/assignTask/assignTask');
 const app = express();
@@ -159,7 +159,7 @@ app.post('/updateReportStatusToUser', async (req, res) => {
     const { reportID, status, playerID} = req.body;
     
     try {
-        await updateReportStatusToUser(reportID, status, playerID);
+        await updateReportStatusToUser2(reportID, status);
 
         res.json({
             success:true,
