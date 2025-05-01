@@ -8,7 +8,7 @@ const { updateAssignedTaskToWorker, updateTaskStatusToWorker, updateReportStatus
 const { uploadAttachment } = require('./services/uploadAttachment/cloudinary');
 const { assignTask } = require('./services/assignTask/assignTask');
 const app = express();
-const port = 3000;
+const port = process.env.PORT | 3000;
 
 app.use(cors());
 app.use(express.json());
@@ -156,10 +156,10 @@ app.post('/updateNewReportToAdmin', async (req, res) => {
 
 app.post('/updateReportStatusToUser', async (req, res) => {
 
-    const { reportID, status } = req.body;
+    const { reportID, status, playerID } = req.body;
     
     try {
-        await updateReportStatusToUser2(reportID, status);
+        await updateReportStatusToUser(reportID, status, playerID);
 
         res.json({
             success:true,
