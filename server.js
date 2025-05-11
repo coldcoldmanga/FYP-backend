@@ -82,7 +82,19 @@ app.post('/updateAssignedTaskToWorker', async (req, res) => {
 
         const { playerID, reportID} = req.body;
 
-        await updateAssignedTaskToWorker(playerID, reportID);
+        
+        try{
+            await updateAssignedTaskToWorker(playerID, reportID);
+        }catch(error){
+            console.error('Error sending push notification to worker:', error);
+
+            res.status(500).json({
+                success:false,
+                error: 'An error occurred while sending push notification to worker',
+                message: error.message
+            })
+        }
+        
 
         res.json({
             success:true,
