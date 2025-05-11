@@ -90,7 +90,7 @@ app.post('/updateAssignedTaskToWorker', async (req, res) => {
 
             res.status(500).json({
                 success:false,
-                error: 'An error occurred while sending push notification to worker',
+                error: 'occured at updateAssignedTaskToWorker',
                 message: error.message
             })
         }
