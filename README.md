@@ -93,12 +93,6 @@ Let me know if you want to add API usage examples or further details!
 
 ---
 
-## License
-
-This project is licensed under the ISC License.
-
----
-
 ## Acknowledgements
 
 - [Express.js](https://expressjs.com/)
