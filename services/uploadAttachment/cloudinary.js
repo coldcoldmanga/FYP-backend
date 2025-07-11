@@ -9,9 +9,6 @@ cloudinary.config({
     secure: true
   });
 
-// const uploadImgURL = `https://api.cloudinary.com/v1_1/${CLOUDINARY_CLOUD_NAME}/image/upload`
-// const uploadVideoURL = `https://api.cloudinary.com/v1_1/${CLOUDINARY_CLOUD_NAME}/video/upload`
-
 const uploadAttachment = async (uri, mediaType) => {
 
     // Add check for missing mediaType

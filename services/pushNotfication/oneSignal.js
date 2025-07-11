@@ -101,30 +101,6 @@ const updateReportStatusToUser = async (reportID, status, playerID) => {
 
 }
 
-// const updateReportStatusToUser2 = async (reportID, status) => {
-
-//     try {
-
-//         const reportUserPlayerID = await getUserPlayerID(reportID);
-//         const trackingUserPlayerID = await getUserTracking(reportID);
-//         let playerID = [reportUserPlayerID];        
-//             if(trackingUserPlayerID.length > 0){
-//                 for(const userID of trackingUserPlayerID){
-//                     playerID.push(userID);
-//                 }
-//             }
-
-//         const title = `${reportID}: Report Status Updated`;
-//         const message = `The report status has been updated to ${status}.`;
-//         const response = await sendNotification(message, title, "", playerID);
-//         return response;
-//     } catch (error) {
-//         console.log(error);
-//         throw error;
-//     }
-
-// }
-
 const updateAssignedTaskToWorker = async (playerID, reportID) => {
     try {
         const title = `New Task Assigned: ${reportID}`;

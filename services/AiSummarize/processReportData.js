@@ -41,7 +41,7 @@ async function processReports(startDate, endDate) {
             end_date: endDate,
         };
         console.log(structuredData);
-        // fs.writeFileSync("structuredData.json", JSON.stringify(structuredData, null, 2));
+
         return structuredData;
     } catch (error) {
         console.error("Error processing reports:", error);
