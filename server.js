@@ -6,7 +6,6 @@ const { processReports} = require('./services/AiSummarize/processReportData');
 const { saveSummary } = require('./services/firestoreService');
 const { updateAssignedTaskToWorker, updateTaskStatusToWorker, updateReportStatusToAdmin, updateNewReportToAdmin, updateReportStatusToUser } = require('./services/pushNotfication/oneSignal');
 const { uploadAttachment } = require('./services/uploadAttachment/cloudinary');
-const { assignTask } = require('./services/assignTask/assignTask');
 const app = express();
 const port = process.env.PORT | 3000;
 
@@ -51,30 +50,6 @@ app.post('/analyzeReport', async (req, res) => {
         
     }
 })
-
-// app.post('/assignTask', async (req, res) => {
-//     try {
-
-//         const { reportID, specializeField} = req.body;
-        
-//         await assignTask(reportID, specializeField);
-
-//         res.json({
-//             success:true,
-//             message: 'Task assigned to worker'
-//         })
-        
-//     } catch (error) {
-//         console.error('Error assigning task:', error);
-
-//         res.status(500).json({
-//             success:false,
-//             error: 'An error occurred while assigning task',
-//             message: error.message
-//         })
-        
-//     }
-// });
 
 app.post('/updateAssignedTaskToWorker', async (req, res) => {
 
